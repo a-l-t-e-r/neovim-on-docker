@@ -8,7 +8,7 @@ sudo docker pull tradeboard/neovim
 Add this line to your `~/.bashrc` or `~/.bash_profile` or `~/.zshrc`
 
 ```bash
-alias edit='sudo docker run -ti --rm -v $(pwd):/workspace tradeboard/neovim'
+alias nvim='sudo docker run -ti --rm -v $(pwd):/workspace tradeboard/neovim'
 ```
 
 ## Bugs:
